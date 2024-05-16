@@ -81,7 +81,7 @@ def recommend(movie):
             recommend_poster.append(fetch_posters(movie_id))
         return recommend_movie, recommend_poster
     else:
-        st.error("Movie not found.")
+        st.error("Movie not .")
         return None
 
 if st.button('Show Recommend'):
